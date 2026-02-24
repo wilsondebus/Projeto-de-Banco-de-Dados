@@ -1,1 +1,48 @@
-## resumo do que foi visto na aula 1 
+## RESUMO DO QUE FOI VISTO NA AULA 1 
+
+--------------------------------------------------------------------------------------------------
+
+SISTEMA DE INFORMAÇÃO  
+  - sistemas para armazenar dados, controlar históricos, realizar pesquisads/consultas.
+SISTEMA DE CONHECIMENTO:
+  - é todo o sistema de informação, mais a gestão de reconhecimento de padrões, o que ajuda a "prever" acontecimentos. 
+
+COMPOSTO POR 2 PARTES:
+  Aspectos Funcionais: funcionalidades ou comportamento do sistema -> Orientação a objetos = Classes e métodos 
+  Aspectos Estruturais: estrutura de dados, interfaces, -> Orientação a objetos = Classes e atributos -> Banco de dados 
+
+ENGENHARIA DE SOFTWARE É COMPOSTA POR:
+  - Análise/Levantamento de requisitos 
+  - Modelagem/Desenho
+  - Projeto
+  - Codificação 
+  - Testes 
+
+MVC (MODEL VIW CONTROLLER):
+  - Model: camada de peristencia ou dados - Orientação a objetos mapeada em bando de dados (Mapeamento Objeto Relacional - MOR ou ORM) 
+  - Controller: regra de negócio do sistema
+  - Viw: parte do usuário - front-end 
+
+BANCO DE DADOS ---> MODEL ---> CONTROLLER ---> VIW ---> USUÁRIO 
+BANCO DE DADOS <--- MODEL <--- CONTROLLER <--- VIW <--- USUÁRIO
+
+SGBD:
+  - Sistema de Gerenciamento de Banco de Dados 
+  - Permite -> criar tabelas, inserir dados, atualizar informações, ecluir registros, controlar aacesso, garantir segurança 
+  - Dependente do SO para funcionar em perfeição
+  - Linguagem de Manipulação: SQL -> create, drop, insert, update, select
+  - Funcionalidades de Segurança: criptografia, backup, ..., gestões de transações
+
+EXEMPLOS DE SGBDs famosos:
+  - MySQL
+  - postgreSQL
+  - Oracle Database 
+  - Microsoft SQL Server 
+  - SQLite 
+
+       máquina(s)/hardware -> sistema operacional -> serviços -> SGBD -> banco de dados -> arquivos
+
+## PARA PRÓXIMA AULA: 
+Ler capítulo 1 e 2 do livro: HEUSER, C. A. Projeto de banco de dados. Porto Alegre: Saggra Luzzato, 2001.
+
+
