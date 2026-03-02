@@ -1,0 +1,17 @@
+MODELAGEM CONCEITUAL: 
+  Abstrata(cliente): 
+    MAPEAR: 
+      - entidades -> classes -> tabelas 
+      - atributos -> variavies -> colunas 
+      - atributos identificadores -> classes primarias 
+      - cardinalidade 
+
+CPF e EMAIL -> normalmente são os atributos identificadores. 
+  - CPF, quando precisa ser unico (pois CPF só pode ter um)
+  - EMAIL, quando pode ter mais de um cadastro como voce de responsável (pois pode ter varios email) 
+
+EXEMPLO DE CADASTRO PARA UM PERSONAL TRAINER: 
+  CLIENTE: 0..N (MIN e MAX)                                                          1(obrigatorio). 0(opcional). N(muitos) 
+    *nome   **CPF  *endereço  *email
+  CATEGORIA: 1..N 
+    *nome  **IDCATEGORIA
