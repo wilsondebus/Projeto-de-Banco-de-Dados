@@ -1,0 +1,40 @@
+ENTIDADES(futuras tabelas) 
+ATRUBUTOS(variaveis) 
+RELACIONAMENTOS(futuras chaves estrangeiras) 
+CARDINILIDADE(a quantidade de relação de um objeto com outro) 
+
+
+LER ATÉ O CAPIITULO 3 DO LIVRO: 
+HEUSER, C. A. Projeto de banco de dados. Porto Alegre: Saggra Luzzato, 2001 
+link download: https://cbcc2011.wordpress.com/wp-content/uploads/2013/04/carlos_alberto_heuser-projeto-de-banco-de-dados.pdf
+
+
+EXERCIICO DE REVISÃO: 
+  1 PASSO: identificar entidadedes
+  2 PASSO: identificar atributos 
+  3 PASSO: identificar relacionamentos 
+  4 PASSO: indentificar cardinalidades 
+
+-----------------------------------------------------------------------------------------
+
+RELACIONAMENTOS(indica que um oua mais atributos de uma entidade visita outra): 
+  - "Simples": é de uma entidade para a outra
+  - Herança: envolve varias entidades, não tem cardinalidade 
+  - Associação: uma entidade que junta todas as outras 
+
+CHAVE ESTRANGEIRA: São informações de uma tabela que são passada para outra, sempre vai ser o atributo identificador que vai ser passado. Sempre vai ser puxado pelo N.
+  - Cria um vinculo com a chave primaria de outra tabela, permitindo relacionamento entre elas 
+  - Garante integridade referencial, assegurando que os dados da tabela filha correspndam aos registros válidos da tabela pai 
+
+PK: primary key - obrigatorio para cada linha de uma tabela, não aceita nulos
+JK: foreign key - é uma coluna que referencia a PK de outra tabela criando relacionamentos e garantindo uma integridade referencial 
+
+N..N = é necessario uma tabela adicional com os atributos identiicadores de cada uma e adicona novos atributos 
+  - Cria com o nome que quiser, mas de preferencia use o nome das duas 
+
+N..1 em tabelas diferentes = o N puxa a outra tabela 
+
+N..1 em tabelas iguais = 
+
+
+  
