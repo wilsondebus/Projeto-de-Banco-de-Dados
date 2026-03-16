@@ -29,10 +29,12 @@ CHAVE ESTRANGEIRA: São informações de uma tabela que são passada para outra,
 PK: primary key - obrigatorio para cada linha de uma tabela, não aceita nulos
 JK: foreign key - é uma coluna que referencia a PK de outra tabela criando relacionamentos e garantindo uma integridade referencial 
 
+1..1 = chave estrangeira pode ir para qualquer tabela 
+
 N..N = é necessario uma tabela adicional com os atributos identiicadores de cada uma e adicona novos atributos 
   - Cria com o nome que quiser, mas de preferencia use o nome das duas 
 
-N..1 em tabelas diferentes = o N puxa a outra tabela 
+N..1 em tabelas diferentes = o N puxa a outra tabela co as chaves estrangeiras  
 
 N..1 em tabelas iguais = 
 
