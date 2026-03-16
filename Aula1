@@ -6,10 +6,14 @@ SISTEMA DE INFORMAÇÃO
   - sistemas para armazenar dados, controlar históricos, realizar pesquisads/consultas.
 SISTEMA DE CONHECIMENTO:
   - é todo o sistema de informação, mais a gestão de reconhecimento de padrões, o que ajuda a "prever" acontecimentos. 
+    - pra isso acontecer é necessario guardar mais dados 
+    - evitar dados nulos (dados opcionais) // fica uma tabela cehia de buracos dificultando o reconhecimento de padrões 
 
-COMPOSTO POR 2 PARTES:
+PARTES OU ELEMENTOS DE UM SISTEMA (COMPOSTO POR 2 PARTES):
   Aspectos Funcionais: funcionalidades ou comportamento do sistema -> Orientação a objetos = Classes e métodos 
   Aspectos Estruturais: estrutura de dados, interfaces, -> Orientação a objetos = Classes e atributos -> Banco de dados 
+
+**sempre começa um sistema pensando no que ele vai fazer 
 
 ENGENHARIA DE SOFTWARE É COMPOSTA POR:
   - Análise/Levantamento de requisitos 
