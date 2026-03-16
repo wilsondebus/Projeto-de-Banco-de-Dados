@@ -19,6 +19,7 @@ Produto_Venda(**idProduto_Venda, idProduto, idVenda, dataVenda, horaVenda)  *o c
 -> data referencia Venda 
 -> hora referencia Venda 
 
+
 2) 
 Condominio(**idCondominio, descricao)
 
@@ -36,6 +37,21 @@ Unidade_Pessoa(**idUnidade_Pessoa, idPessoa, idUnidade)
 -> idUnidade referencia Unidade 
 
 
+3)
+Departamento(**idDepartamento, descircao) 
+
+Empregado(**idEmpregado, nome, funcao, gerente 
+-> gerente referencia empregado(idEmpregado) 
+
+ProcessaorTexto(**idProcessador, nome)
+
+Secretaria_PrcessadorTexto(**Secretaria_PrcessadorTexto, Secrataria, idProcessadorTexto)
+-> Secrataria referencia Empregado(idEmpregado) 
+-> idProcesaodorTexto referencia ProcessadorTexto(ProcessadorTexto)
+
+EngenheiroProjeto(**idEngenheiroProjeto, Engenheiro, Projeto)
+-> Engenheiro referncia Empregado(idEmpregado)
+-> Projeto referencia Projeto(idProjeto)
 
 -----------------------------------------------------------------------------------------
 
