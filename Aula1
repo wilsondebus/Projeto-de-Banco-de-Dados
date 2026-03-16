@@ -27,8 +27,9 @@ BANCO DE DADOS ---> MODEL ---> CONTROLLER ---> VIW ---> USUÁRIO
 BANCO DE DADOS <--- MODEL <--- CONTROLLER <--- VIW <--- USUÁRIO
 
 SGBD:
-  - Garante integirddade do banco 
-  - Sistema de Gerenciamento de Banco de Dados 
+  - Sistema de Gerenciamento de Banco de Dados
+  - Garante integridade e transações do banco  
+  - Backoup 
   - Permite -> criar tabelas, inserir dados, atualizar informações, ecluir registros, controlar aacesso, garantir segurança 
   - Dependente do SO para funcionar em perfeição
   - Linguagem de Manipulação: SQL -> create, drop, insert, update, select
