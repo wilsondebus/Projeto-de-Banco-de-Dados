@@ -20,15 +20,19 @@ Produto_Venda(**idProduto_Venda, idProduto, idVenda, dataVenda, horaVenda)  *o c
 -> hora referencia Venda 
 
 2) 
-Condominio(**idCondominio, descricao 
+Condominio(**idCondominio, descricao)
 
-Unidade(**idUnidade, endereco, idCondominio
+Unidade(**idUnidade, endereco, idCondominio)
 -> idConodminio referencia condominio 
 
-Pessoa(**idPessoa, nome
+Pessoa(**idPessoa, nome)
 
 Aluguel(**idAluguel, dataInicio, dataFim, idPessoa, idUnidade)
 -> idPessoa referencia Pessoa
+-> idUnidade referencia Unidade 
+
+Unidade_Pessoa(**idUnidade_Pessoa, idPessoa, idUnidade)
+-> idPessoa referencia Pessoa 
 -> idUnidade referencia Unidade 
 
 
