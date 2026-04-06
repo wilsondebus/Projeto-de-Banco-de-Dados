@@ -19,3 +19,44 @@ Soft Constraint (restrição suave):
 
 Hard Constraint:
   - É uma restrição que não pode ser quebrada 
+
+
+Banco de Dados x SGBD 
+  Banco de dados:
+    - tabelas 
+
+  SGBD:
+    SERVIÇOS:
+    - restrições de integridade 
+    - funções: programadas e condicionadas (stored procedure)   
+    - backup 
+    - gestão de transações (são operações sobre o banco de dados)
+        A: atomica 
+        C: consistente 
+        I: isolada 
+        D: duravel 
+
+    - operações sobre o BD:
+        - inserir 
+        - remover (não é uma transação recomendavel) // ou é tudo ou é nada
+        - atualizar 
+
+    - manipulação de dados: 
+      SQL:
+        DDL - Data Definition Language // com tudo isso posso: CRIAR(create), ALTERAR(update), REMOVER(drop) 
+          - esquemas (BD)
+          - tabelas 
+          - criar restrições (estruturais) 
+      
+        DML - Data Manipulation Language // com tudo isso posso: SELECIONAR(select), ALTERAR CAMPOS(update), REMOVER(delete) 
+          - tabelas 
+          - relacionamentos 
+          **algebra relacional 
+            - projeção 
+            - seleção 
+            - união (or)
+            - interseção (and)
+            - diferença (minus)
+            - divisão 
+            - produto cartesiano (join)  - forma de unir duas tabelas 
+          
