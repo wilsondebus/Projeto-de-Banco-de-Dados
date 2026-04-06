@@ -1,0 +1,21 @@
+Um Sistema é composto por aspectos funcionais e aspectos estruturais, com isso existem restrições. 
+
+Restrições:
+Restrições Funcionais:
+  - Não dependem do Banco de dados 
+
+Restrições Estruturais: 
+  - Dependem do banco de dados 
+  SGBD: faz gestões de restrições: 
+    1. Restrição de chave primaria (restrição de integridade) 
+    2. restrição de chave estrangeira (restrição referencial) 
+
+Ex: Um Onibus tem uma restrição funcional de ter no maximo 40 passageiros dentro dele, e tem uma restrição estutural de todos onibus terem ar condicionado. 
+  - Na hora de montar o onibus tu ja vai montar ele com ar condicionado -> Depende do banco 
+  - Ele ter no maximo 40 passageiros não depende do banco de dados 
+
+Soft Constraint (restrição suave): 
+  - É uma restrição que da pra quebrar 
+
+Hard Constraint:
+  - É uma restrição que não pode ser quebrada 
