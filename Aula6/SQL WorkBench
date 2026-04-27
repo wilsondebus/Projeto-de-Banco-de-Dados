@@ -1,0 +1,37 @@
+Usando SQL WorkBench 
+-- mostra os esquemas de banco de dados do mysql 
+show databases; 
+
+-- para ativar um esquema ou um banco de dados 
+use mysql;
+
+-- mostre as tabelas de um esquema ou de um banco de dados 
+show tables; 
+
+-- mostra todos os atributos e os conteudos da tabela db 
+select *
+from db; 
+
+-- cria um esquema de banco de dados 
+create schema ufn_db; 
+use ufn_db;
+show tables;  
+
+-- criando tabelas 
+CREATE TABLE curso (
+	id_curso INT PRIMARY KEY not null,
+	descricao VARCHAR(50) not null
+); 
+
+select *
+from curso;
+
+CREATE TABLE aluno (
+	id_aluno INT PRIMARY KEY not null, 
+	nome VARCHAR(50) not null, 
+    id_curso INT,
+	CONSTRAINT fk_curso FOREIGN KEY (id_curso) REFERENCES curso(id_curso)
+); 
+    
+select*
+from aluno; 
