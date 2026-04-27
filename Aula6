@@ -1,0 +1,39 @@
+Mostrar os pacietes que fizeram consulta com os medicos traumatologistas, exibir a data e o nome do medico 
+
+Select    Paciente.nome, Consulta.data, Medico.nome 
+From      Paciente, Medico, Consulta
+Where     Medico.especialidade == "Traumato" and Medico.id_Medico == Consulta.id_Medico and Paciente.id_Paciente == Conulta.id=Paciente; 
+
+-------------------------------------------------------------------------------------------
+
+Descobre a data das consultas femininas 
+
+Select    Consulta.data 
+From      Consulta 
+Where     id_paciente in 
+Select    id_paciente 
+From      Paciente 
+Where     sexo == "F";
+
+------------------------------------------------------------------------------------------
+
+Descobrir os alunos que fazem Estrutura de Dados no ano de 2026 e mostrar o curso que ele faz 
+
+Select    Aluno.nome, Curso.descricao   
+From      Disciplina , Turma 
+Where     Disciplia.nome == 'estrutura de dados' and Disciplina.id_turma == Matricula.id_disciplina and 
+          Matricula.id_aluno == Aluno.id_aluno and Aluno.id_curso == Curso.id_curso; 
+
+------------------------------------------------------------------------------------------
+
+Mostrar o historico de disciplinas cursadas pelo Alexnadre 
+
+Select    Disciplina.nome
+From      Disciplina, Aluno, Matricula 
+Where     Aluno.nome == 'alexz' and 
+          Aluno.nome == Aluno.id_aluno and 
+          Maricula.id_aluno == Aluno.id_aluno and 
+          Matricula.id_aluno == Turma.id_turma and 
+          Turma.id_turma == Disciplina.id_disciplina and 
+          Disciplina.id_disciplina == Disciplina.nome; 
+
